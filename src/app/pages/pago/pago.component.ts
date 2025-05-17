@@ -34,7 +34,7 @@ export class PagoComponent {
   finalizarPago() {
     if (this.metodoPago) {
       this.pagoRealizado = true;
-      // Aquí podrías guardar en Firestore si quieres
+      
     }
   }
 }

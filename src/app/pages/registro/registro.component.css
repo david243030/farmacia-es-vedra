@@ -1,5 +1,5 @@
 body {
-    background-color: #dbeafe; /* azul claro */
+    background-color: #dbeafe; 
     font-family: Arial, sans-serif;
   }
   
@@ -64,7 +64,7 @@ body {
   }
   
   .registro-google button {
-    background-color: #6b7280; /* gris elegante */
+    background-color: #6b7280; 
     color: white;
   }
   

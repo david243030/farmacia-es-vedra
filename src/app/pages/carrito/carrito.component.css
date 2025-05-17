@@ -1,11 +1,11 @@
-/* Centrado del contenedor principal */
+
 .contenedor-carrito {
   max-width: 1000px;
   margin: 40px auto;
   padding: 20px;
 }
 
-/* Cada producto en el carrito */
+
 .producto {
   display: flex;
   align-items: center;
@@ -14,7 +14,7 @@
   padding: 15px 0;
 }
 
-/* Imagen del producto */
+
 .producto img {
   width: 100px;
   height: 100px;
@@ -22,12 +22,12 @@
   border-radius: 6px;
 }
 
-/* Info del producto */
+
 .producto .info {
   flex: 1;
 }
 
-/* Cantidad con botones */
+
 .cantidad {
   display: flex;
   align-items: center;
@@ -41,7 +41,7 @@ input[type="number"] {
   padding: 5px;
 }
 
-/* Botón eliminar */
+
 .btn-eliminar {
   background-color: #e74c3c;
   border: none;
@@ -52,7 +52,7 @@ input[type="number"] {
   margin-top: 8px;
 }
 
-/* Sección de resumen */
+
 .resumen-final {
   text-align: right;
   margin-top: 20px;
@@ -68,7 +68,7 @@ input[type="number"] {
   cursor: pointer;
 }
 
-/* Formulario de envío */
+
 .formulario-envio {
   max-width: 500px;
   margin: 30px auto;

@@ -2,12 +2,12 @@
   🛍️ Productos de {{ categoriaSeleccionada || 'todas las categorías' }}
 </h2>
 
-<!-- ✅ MENSAJE DE ÉXITO -->
+
 <div *ngIf="productoAgregado" class="notificacion-flotante">
   ✅ Producto añadido al carrito correctamente.
 </div>
 
-<!-- ✅ LISTADO DE PRODUCTOS -->
+
 <div *ngIf="productosFiltrados.length > 0; else sinResultados" class="productos-grid">
   <div class="producto-card" *ngFor="let producto of productosFiltrados">
     <img [src]="producto.imagenUrl || 'assets/productos/placeholder.jpg'" [alt]="producto.nombre">

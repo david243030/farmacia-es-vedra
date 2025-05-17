@@ -38,7 +38,7 @@ export class CarritoService {
     return this.carrito.reduce((total, prod) => total + (prod.precio * prod.cantidad), 0);
   }
 
-  // ✅ NUEVO: permite actualizar todo el carrito
+  
   actualizarCarrito(nuevoCarrito: any[]) {
     this.carrito = nuevoCarrito;
     this.carrito$.next(this.carrito);

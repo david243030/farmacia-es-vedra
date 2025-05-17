@@ -11,7 +11,7 @@
   <div *ngIf="carrito.length > 0" class="carrito-contenido">
     <div *ngIf="!mostrarFormulario">
 
-      <!-- ✅ CARRITO HORIZONTAL -->
+      
       <div class="productos-horizontal">
         <div class="producto-item" *ngFor="let p of carrito; let i = index">
           <img [src]="p.imagenUrl || 'assets/productos/placeholder.jpg'" alt="{{ p.nombre }}">
@@ -22,14 +22,14 @@
         </div>
       </div>
 
-      <!-- ✅ FOOTER FIJO -->
+      
       <div class="footer-carrito">
         <div class="total">Total: {{ obtenerTotal() | currency:'EUR' }}</div>
         <button class="btn-continuar" (click)="verificarContinuar()">CONTINUAR</button>
       </div>
     </div>
 
-    <!-- ✅ FORMULARIO DE ENVÍO -->
+    
     <div *ngIf="mostrarFormulario" class="formulario-envio">
       <h3>📦 Datos de envío</h3>
       <form #formEnvio="ngForm" (ngSubmit)="confirmarPedido(formEnvio)">

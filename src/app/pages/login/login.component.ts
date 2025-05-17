@@ -18,7 +18,7 @@ export class LoginComponent {
   esRegistro: boolean = false;
   registroExitoso: boolean = false;
 
-  // Nuevos campos para registro
+  
   dni: string = '';
   nombre: string = '';
   apellidos: string = '';

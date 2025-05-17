@@ -3,7 +3,7 @@
   <h2 *ngIf="esRegistro">Crear cuenta</h2>
 
   <form (ngSubmit)="esRegistro ? registrar() : login()" #form="ngForm">
-    <!-- Email y contraseña -->
+    
     <div>
       <label>Email</label>
       <input type="email" [(ngModel)]="email" name="email" required />
@@ -14,7 +14,7 @@
       <input type="password" [(ngModel)]="password" name="password" required />
     </div>
 
-    <!-- Solo para registro -->
+    
     <div *ngIf="esRegistro">
       <label>DNI</label>
       <input type="text" [(ngModel)]="dni" name="dni" required />
@@ -38,10 +38,10 @@
   </form>
 
   <div *ngIf="registroExitoso" class="mensaje-exito">
-    ✅ Cuenta creada con éxito. Ya puedes iniciar sesión.
+     Cuenta creada con éxito. Ya puedes iniciar sesión.
   </div>
 
-  <!-- Alternar entre login y registro -->
+  
   <p *ngIf="!esRegistro">
     ¿No tienes cuenta?
     <a href="#" (click)="toggleModo(); $event.preventDefault()">Regístrate</a>
@@ -53,7 +53,7 @@
 
   <hr />
 
-  <!-- Botón Google con icono -->
+ 
    <button (click)="loginConGoogle()" class="btn-google">
   <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
        alt="Google logo"

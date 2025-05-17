@@ -1,4 +1,4 @@
-/* HEADER */
+
 .barra-navegacion {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -57,7 +57,7 @@
   font-size: 20px;
 }
 
-/* FORMULARIO DE LOGIN */
+
 .login-form {
   background-color: #ffffff;
   padding: 20px;
@@ -87,7 +87,7 @@
   cursor: pointer;
 }
 
-/* CATEGORÍAS */
+
 .categorias-home {
   padding: 40px 20px 10px;
   text-align: center;
@@ -147,7 +147,7 @@
   margin: 0 auto 10px;
 }
 
-/* COLORES DE FONDO */
+
 .fondo-verde { background-color: #c8e6c9; }
 .fondo-rosado { background-color: #f8bbd0; }
 .fondo-azul { background-color: #b3e5fc; }
@@ -155,8 +155,7 @@
 .fondo-amarillo { background-color: #fff59d; }
 .fondo-lila { background-color: #e1bee7; }
 
-/* PRODUCTOS DESTACADOS Y PROMOCIONES */
-./* PROMOCIONES DESTACADAS */
+
 .seccion-promociones {
   padding: 40px 20px;
   background-color: #f4f4f4;
@@ -190,7 +189,7 @@
 .promo-card img {
   width: 100%;
   height: 160px;
-  object-fit: contain; /* evita que la imagen se corte */
+  object-fit: contain; 
   border-radius: 8px;
   margin-bottom: 10px;
   background-color: #f9f9f9;
@@ -220,7 +219,7 @@
 }
 
 
-/* CARRITO */
+
 .carrito {
   background-color: #fffdf5;
   padding: 30px;

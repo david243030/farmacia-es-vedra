@@ -11,5 +11,5 @@ export const routes: Routes = [
   { path: 'registro', component: RegistroComponent },
   { path: 'carrito', component: CarritoComponent },
   { path: 'login', component: LoginComponent },
-  { path: 'pago', loadComponent: () => import('./pages/pago/pago.component').then(m => m.PagoComponent) }, // ✅ ESTA LÍNEA
+  { path: 'pago', loadComponent: () => import('./pages/pago/pago.component').then(m => m.PagoComponent) }, 
 ];
