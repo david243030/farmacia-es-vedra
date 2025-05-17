@@ -1,0 +1,52 @@
+<div class="contenedor-carrito">
+  <h2 style="text-align: center;">🛍️ Carrito de compras</h2>
+
+  <div *ngIf="carrito.length === 0">
+    <p style="text-align: center;">Tu carrito está vacío.</p>
+    <div style="text-align: center;">
+      <a routerLink="/productos" class="btn-volver">Ver productos</a>
+    </div>
+  </div>
+
+  <div *ngIf="carrito.length > 0" class="carrito-contenido">
+    <div *ngIf="!mostrarFormulario">
+
+      <!-- ✅ CARRITO HORIZONTAL -->
+      <div class="productos-horizontal">
+        <div class="producto-item" *ngFor="let p of carrito; let i = index">
+          <img [src]="p.imagenUrl || 'assets/productos/placeholder.jpg'" alt="{{ p.nombre }}">
+          <p><strong>{{ p.nombre }}</strong></p>
+          <p>{{ p.precio | currency:'EUR' }} x {{ p.cantidad }}</p>
+          <p><strong>Subtotal:</strong> {{ p.precio * p.cantidad | currency:'EUR' }}</p>
+          <button class="btn-eliminar" (click)="eliminarProducto(i)">Eliminar</button>
+        </div>
+      </div>
+
+      <!-- ✅ FOOTER FIJO -->
+      <div class="footer-carrito">
+        <div class="total">Total: {{ obtenerTotal() | currency:'EUR' }}</div>
+        <button class="btn-continuar" (click)="verificarContinuar()">CONTINUAR</button>
+      </div>
+    </div>
+
+    <!-- ✅ FORMULARIO DE ENVÍO -->
+    <div *ngIf="mostrarFormulario" class="formulario-envio">
+      <h3>📦 Datos de envío</h3>
+      <form #formEnvio="ngForm" (ngSubmit)="confirmarPedido(formEnvio)">
+        <input type="text" required name="nombre" [(ngModel)]="envio.nombre" placeholder="Nombre completo" #nombre="ngModel">
+        <div *ngIf="nombre.invalid && nombre.touched" class="error-campo">Nombre requerido</div>
+
+        <input type="text" required name="direccion" [(ngModel)]="envio.direccion" placeholder="Dirección" #direccion="ngModel">
+        <div *ngIf="direccion.invalid && direccion.touched" class="error-campo">Dirección requerida</div>
+
+        <input type="text" required name="ciudad" [(ngModel)]="envio.ciudad" placeholder="Ciudad" #ciudad="ngModel">
+        <div *ngIf="ciudad.invalid && ciudad.touched" class="error-campo">Ciudad requerida</div>
+
+        <input type="text" required name="cp" [(ngModel)]="envio.cp" placeholder="Código postal" #cp="ngModel">
+        <div *ngIf="cp.invalid && cp.touched" class="error-campo">Código postal requerido</div>
+
+        <button class="btn-confirmar" type="submit" [disabled]="formEnvio.invalid">Confirmar pedido</button>
+      </form>
+    </div>
+  </div>
+</div>

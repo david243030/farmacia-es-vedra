@@ -1,0 +1,19 @@
+.contenedor {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  button {
+    background-color: #f44336;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  

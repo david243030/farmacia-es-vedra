@@ -1,0 +1,23 @@
+<header class="barra-navegacion">
+  <div class="zona-logo" (click)="irAlInicio()">
+    <img src="assets/logo.png" alt="Farma Es Vedrà" class="logo-img" />
+  </div>
+
+  <div class="zona-busqueda">
+    <input type="text" placeholder="Buscar productos..." [(ngModel)]="busqueda" aria-label="Buscar productos" />
+    <button (click)="buscar()">🔍</button>
+  </div>
+
+  <div class="zona-acciones">
+    <ng-container *ngIf="usuario; else noLogueado">
+      <span>Hola, {{ usuario.email }}</span>
+      <button (click)="cerrarSesion()">Cerrar sesión</button>
+    </ng-container>
+
+    <ng-template #noLogueado>
+      <a routerLink="/login">Iniciar sesión</a>
+    </ng-template>
+
+    <button (click)="irAlCarrito()">Carrito ({{ carrito.length }})</button>
+  </div>
+</header>

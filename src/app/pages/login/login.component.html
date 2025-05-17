@@ -1,0 +1,62 @@
+<div class="contenedor-login">
+  <h2 *ngIf="!esRegistro">Iniciar Sesión</h2>
+  <h2 *ngIf="esRegistro">Crear cuenta</h2>
+
+  <form (ngSubmit)="esRegistro ? registrar() : login()" #form="ngForm">
+    <!-- Email y contraseña -->
+    <div>
+      <label>Email</label>
+      <input type="email" [(ngModel)]="email" name="email" required />
+    </div>
+
+    <div>
+      <label>Contraseña</label>
+      <input type="password" [(ngModel)]="password" name="password" required />
+    </div>
+
+    <!-- Solo para registro -->
+    <div *ngIf="esRegistro">
+      <label>DNI</label>
+      <input type="text" [(ngModel)]="dni" name="dni" required />
+
+      <label>Nombre</label>
+      <input type="text" [(ngModel)]="nombre" name="nombre" required />
+
+      <label>Apellidos</label>
+      <input type="text" [(ngModel)]="apellidos" name="apellidos" required />
+
+      <label>Fecha de nacimiento</label>
+      <input type="date" [(ngModel)]="fechaNacimiento" name="fechaNacimiento" required />
+
+      <label>Teléfono</label>
+      <input type="tel" [(ngModel)]="telefono" name="telefono" required />
+    </div>
+
+    <button type="submit" class="btn-login">
+      {{ esRegistro ? 'Registrarse' : 'Iniciar sesión' }}
+    </button>
+  </form>
+
+  <div *ngIf="registroExitoso" class="mensaje-exito">
+    ✅ Cuenta creada con éxito. Ya puedes iniciar sesión.
+  </div>
+
+  <!-- Alternar entre login y registro -->
+  <p *ngIf="!esRegistro">
+    ¿No tienes cuenta?
+    <a href="#" (click)="toggleModo(); $event.preventDefault()">Regístrate</a>
+  </p>
+  <p *ngIf="esRegistro">
+    ¿Ya tienes cuenta?
+    <a href="#" (click)="toggleModo(); $event.preventDefault()">Inicia sesión</a>
+  </p>
+
+  <hr />
+
+  <!-- Botón Google con icono -->
+   <button (click)="loginConGoogle()" class="btn-google">
+  <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
+       alt="Google logo"
+       style="width: 20px; height: 20px;" />
+  Iniciar sesión con Google
+</button>

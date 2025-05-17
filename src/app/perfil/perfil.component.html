@@ -1,0 +1,32 @@
+<div class="contenedor">
+    <h2>Perfil del usuario</h2>
+  
+    <div *ngIf="usuario; else noSesion">
+      <p><strong>Nombre/Email:</strong> {{ usuario.displayName || usuario.email }}</p>
+      <button (click)="cerrarSesion()">Cerrar sesión</button>
+  
+      <h3 style="margin-top: 30px;">Historial de pedidos</h3>
+      <div *ngIf="pedidos.length > 0; else sinPedidos">
+        <ul>
+          <li *ngFor="let pedido of pedidos">
+            <p><strong>Fecha:</strong> {{ pedido.fecha }}</p>
+            <p><strong>Total:</strong> {{ pedido.total | currency:'EUR' }}</p>
+            <p><strong>Productos:</strong></p>
+            <ul>
+              <li *ngFor="let prod of pedido.productos">
+                {{ prod.nombre }} (x{{ prod.cantidad }}) - {{ prod.precioUnitario | currency:'EUR' }}
+              </li>
+            </ul>
+            <hr />
+          </li>
+        </ul>
+      </div>
+      <ng-template #sinPedidos><p>No hay pedidos registrados.</p></ng-template>
+    </div>
+  
+    <ng-template #noSesion>
+      <p>No has iniciado sesión.</p>
+      <a routerLink="/login">Inicia sesión aquí</a>
+    </ng-template>
+  </div>
+  

@@ -1,0 +1,75 @@
+body {
+    background-color: #dbeafe; /* azul claro */
+    font-family: Arial, sans-serif;
+  }
+  
+  .contenedor {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    position: relative;
+  }
+  
+  h2 {
+    margin-top: -40px;
+    background-color: #3b82f6;
+    color: white;
+    padding: 15px;
+    border-radius: 12px 12px 0 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  form div {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007ACC;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #005999;
+  }
+  
+  .registro-google {
+    margin-top: 30px;
+  }
+  
+  .registro-google p {
+    margin-bottom: 10px;
+  }
+  
+  .registro-google button {
+    background-color: #6b7280; /* gris elegante */
+    color: white;
+  }
+  
+  .registro-google button:hover {
+    background-color: #4b5563;
+  }
+  
+  

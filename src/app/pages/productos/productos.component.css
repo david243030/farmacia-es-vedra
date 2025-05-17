@@ -1,0 +1,67 @@
+.contenedor {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.productos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.producto-card {
+  width: 240px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.producto-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: contain; /* Evita que se corte la imagen */
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9; /* Fondo por si la imagen no ocupa todo el espacio */
+}
+
+.producto-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.producto-card p {
+  font-size: 0.95rem;
+  color: #444;
+  margin-bottom: 6px;
+  min-height: 40px; /* Para mantener altura uniforme si hay poco texto */
+}
+
+.producto-card button {
+  margin-top: 8px;
+  padding: 8px 14px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.notificacion-flotante {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #28a745;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  z-index: 1000;
+}

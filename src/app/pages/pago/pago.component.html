@@ -1,0 +1,32 @@
+<div class="contenedor-pago">
+  <h2>💳 Método de pago</h2>
+
+  <div *ngIf="pagoRealizado; else formularioPago">
+    <p>✅ ¡Pago realizado con éxito!</p>
+    <p>📦 Enviaremos tu pedido a:</p>
+    <ul>
+      <li><strong>Nombre:</strong> {{ envio.nombre }}</li>
+      <li><strong>Dirección:</strong> {{ envio.direccion }}</li>
+      <li><strong>Ciudad:</strong> {{ envio.ciudad }}</li>
+      <li><strong>CP:</strong> {{ envio.cp }}</li>
+    </ul>
+  </div>
+
+  <ng-template #formularioPago>
+    <form (ngSubmit)="finalizarPago()">
+      <label>
+        <input type="radio" name="metodo" value="tarjeta" [(ngModel)]="metodoPago" required />
+        Tarjeta de crédito
+      </label>
+      <br />
+      <label>
+        <input type="radio" name="metodo" value="paypal" [(ngModel)]="metodoPago" required />
+        PayPal
+      </label>
+      <br /><br />
+
+      <p><strong>Total a pagar:</strong> {{ total | currency:'EUR' }}</p>
+      <button type="submit" [disabled]="!metodoPago">Pagar</button>
+    </form>
+  </ng-template>
+</div>

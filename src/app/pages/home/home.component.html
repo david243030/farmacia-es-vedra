@@ -1,0 +1,54 @@
+<!-- CATEGORÍAS -->
+<div class="categorias-home">
+  <h2>🛍️ Categorías</h2>
+  <div class="categorias-grid">
+    <a routerLink="/productos" [queryParams]="{ categoria: 'Bucal' }" class="categoria">
+      <div class="icono-categoria fondo-azul"><i class="fas fa-tooth"></i></div>
+      <span>Bucal</span>
+    </a>
+    <a routerLink="/productos" [queryParams]="{ categoria: 'Cabello' }" class="categoria">
+      <div class="icono-categoria fondo-lila"><i class="fas fa-scissors"></i></div>
+      <span>Cabello</span>
+    </a>
+    <a routerLink="/productos" [queryParams]="{ categoria: 'Corporal' }" class="categoria">
+      <div class="icono-categoria fondo-beige"><i class="fas fa-hands-wash"></i></div>
+      <span>Corporal</span>
+    </a>
+    <a routerLink="/productos" [queryParams]="{ categoria: 'Cosmética' }" class="categoria">
+      <div class="icono-categoria fondo-rosado"><i class="fas fa-pump-soap"></i></div>
+      <span>Cosmética</span>
+    </a>
+    <a routerLink="/productos" [queryParams]="{ categoria: 'Dietética' }" class="categoria">
+      <div class="icono-categoria fondo-verde"><i class="fas fa-apple-alt"></i></div>
+      <span>Dietética</span>
+    </a>
+    <a routerLink="/productos" [queryParams]="{ categoria: 'Infantil' }" class="categoria">
+      <div class="icono-categoria fondo-amarillo"><i class="fas fa-baby"></i></div>
+      <span>Infantil</span>
+    </a>
+  </div>
+</div>
+
+<!-- PROMOCIONES -->
+<div class="seccion-promociones">
+  <h2>🔥 Promociones destacadas </h2>
+  <div class="promo-banner">
+    <div class="promo-card">
+      <img src="assets/promos/crema-solar.jpg" alt="Crema solar">
+      <h3>Crema Solar SPF 50+ (PROMO)</h3>
+      <p>Protección solar total para tu piel. Precio especial: 6,50 €</p>
+      <button (click)="agregarAlCarrito({ id: 101, nombre: 'Crema Solar SPF 50+ (PROMO)', precio: 6.50 })">
+        Añadir a cesta
+      </button>
+    </div>
+    <div class="promo-card">
+      <img src="assets/promos/champu-oferta.jpg" alt="Champú revitalizante">
+      <h3>Champú Revitalizante (PROMO)</h3>
+      <p>Cabello sano y fuerte con ingredientes naturales. Oferta 2x1 - Precio promo: 4,99 €</p>
+      <button (click)="agregarAlCarrito({ id: 102, nombre: 'Champú Revitalizante (PROMO)', precio: 4.99 })">
+        Añadir a cesta
+      </button>
+    </div>
+  </div>
+</div>
+

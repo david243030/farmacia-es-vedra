@@ -1,0 +1,946 @@
+[
+  {
+    "nombre": "Cepillo dental suave vitis",
+    "categoria": "Bucal",
+    "precio": 4.99,
+    "descripcion": "Cepillo dental suave , ideal para el cuidado diario de la higiene bucal.",
+    "imagenUrl": "assets/productos/cepillo-vitis.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "Pasta dentífrica blanqueadora WhiteSmile",
+    "categoria": "Bucal",
+    "precio": 7.57,
+    "descripcion": "Pasta dentífrica blanqueadora WhiteSmile, ideal para el cuidado diario de la higiene bucal.",
+    "imagenUrl": "assets/productos/pasta-blancadora.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "Enjuague bucal con flúor DentalPro",
+    "categoria": "Bucal",
+    "precio": 12.19,
+    "descripcion": "Enjuague bucal con flúor DentalPro, ideal para el cuidado diario de la higiene bucal.",
+    "imagenUrl": "assets/productos/fluorazul.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "Seda dental menta FreshDent",
+    "categoria": "Bucal",
+    "precio": 4.09,
+    "descripcion": "Seda dental menta FreshDent, ideal para el cuidado diario de la higiene bucal.",
+    "imagenUrl": "assets/productos/sedadental.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "Kit de higiene bucal de viaje",
+    "categoria": "Bucal",
+    "precio": 12.14,
+    "descripcion": "Kit de higiene bucal de viaje, ideal para el cuidado diario de la higiene bucal.",
+    "imagenUrl": "assets/productos/kit.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "Cepillo interdental ultra fino",
+    "categoria": "Bucal",
+    "precio": 4.05,
+    "descripcion": "Cepillo interdental ultra fino, ideal para el cuidado diario de la higiene bucal.",
+    "imagenUrl": "assets/productos/cepilloo.jpg",
+    "promocion": false
+  },
+  {
+    "nombre": "Pasta dental infantil sin flúor",
+    "categoria": "Bucal",
+    "precio": 6.24,
+    "descripcion": "Pasta dental infantil sin flúor, ideal para el cuidado diario de la higiene bucal.",
+    "imagenUrl": "assets/productos/pasta.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "Spray bucal aliento fresco",
+    "categoria": "Bucal",
+    "precio": 5.42,
+    "descripcion": "Spray bucal aliento fresco, ideal para el cuidado diario de la higiene bucal.",
+    "imagenUrl": "assets/productos/aliento.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "Gel calmante para encías bebe",
+    "categoria": "Bucal",
+    "precio": 8.37,
+    "descripcion": "Gel calmante para encías, ideal para el cuidado diario de la higiene bucal.",
+    "imagenUrl": "assets/productos/gelencias.jpg",
+    "promocion": false
+  },
+  {
+    "nombre": "Irrigador bucal portátil",
+    "categoria": "Bucal",
+    "precio": 13.95,
+    "descripcion": "Irrigador bucal portátil, ideal para el cuidado diario de la higiene bucal.",
+    "imagenUrl": "assets/productos/irrigador.jpg",
+    "promocion": false
+  },
+  {
+    "nombre": "Protector dental para bruxismo",
+    "categoria": "Bucal",
+    "precio": 10.13,
+    "descripcion": "Protector dental para bruxismo, ideal para el cuidado diario de la higiene bucal.",
+    "imagenUrl": "assets/productos/protector.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "Pasta dental con carbón activado",
+    "categoria": "Bucal",
+    "precio": 7.63,
+    "descripcion": "Pasta dental con carbón activado, ideal para el cuidado diario de la higiene bucal.",
+    "imagenUrl": "assets/productos/pastadental.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "Enjuague bucal antiséptico",
+    "categoria": "Bucal",
+    "precio": 7.01,
+    "descripcion": "Enjuague bucal antiséptico, ideal para el cuidado diario de la higiene bucal.",
+    "imagenUrl": "assets/productos/enjuaguebucall.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "Limpiador lingual antibacteriano",
+    "categoria": "Bucal",
+    "precio": 9.55,
+    "descripcion": "Limpiador lingual antibacteriano, ideal para el cuidado diario de la higiene bucal.",
+    "imagenUrl": "assets/productos/limpiadorlingual.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "cepillo electrico usmile",
+    "categoria": "Bucal",
+    "precio": 10.27,
+    "descripcion": "Cepillo eléctrico FarmaSmile, ideal para el cuidado diario de la higiene bucal.",
+    "imagenUrl": "assets/productos/usmile.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "Kit blanqueador dental express",
+    "categoria": "Bucal",
+    "precio": 14.77,
+    "descripcion": "Kit blanqueador dental express, ideal para el cuidado diario de la higiene bucal.",
+    "imagenUrl": "assets/productos/kitt.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "Crema dental para encías sensibles",
+    "categoria": "Bucal",
+    "precio": 12.48,
+    "descripcion": "Crema dental para encías sensibles, ideal para el cuidado diario de la higiene bucal.",
+    "imagenUrl": "assets/productos/encias.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "Kit ortodoncia limpieza avanzada",
+    "categoria": "Bucal",
+    "precio": 11.51,
+    "descripcion": "Kit ortodoncia limpieza avanzada, ideal para el cuidado diario de la higiene bucal.",
+    "imagenUrl": "assets/productos/kitortodoncia.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "Pasta dentífrica herbal natural",
+    "categoria": "Bucal",
+    "precio": 8.64,
+    "descripcion": "Pasta dentífrica herbal natural, ideal para el cuidado diario de la higiene bucal.",
+    "imagenUrl": "assets/productos/herbal.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "Leche infantil en polvo etapa 1",
+    "categoria": "Infantil",
+    "precio": 25.59,
+    "descripcion": "Leche infantil en polvo etapa 1, formulado especialmente para el bienestar de los más pequeños.",
+    "imagenUrl": "assets/productos/leche.jpg",
+    "promocion": false
+  },
+  {
+    "nombre": "Toallitas húmedas sin perfume",
+    "categoria": "Infantil",
+    "precio": 3.59,
+    "descripcion": "Toallitas húmedas sin perfume, formulado especialmente para el bienestar de los más pequeños.",
+    "imagenUrl": "assets/productos/toallitas.jpg",
+    "promocion": false
+  },
+  {
+    "nombre": "Crema pañal con óxido de zinc",
+    "categoria": "Infantil",
+    "precio": 9.01,
+    "descripcion": "Crema pañal con óxido de zinc, formulado especialmente para el bienestar de los más pequeños.",
+    "imagenUrl": "assets/productos/cremapañal.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "Champú suave sin lágrimas",
+    "categoria": "Infantil",
+    "precio": 6.41,
+    "descripcion": "Champú suave sin lágrimas, formulado especialmente para el bienestar de los más pequeños.",
+    "imagenUrl": "assets/productos/champu.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "Termómetro digital flexible",
+    "categoria": "Infantil",
+    "precio": 9.72,
+    "descripcion": "Termómetro digital flexible, formulado especialmente para el bienestar de los más pequeños.",
+    "imagenUrl": "assets/productos/termometro.jpg",
+    "promocion": false
+  },
+  {
+    "nombre": "Biberón anticólicos 250ml",
+    "categoria": "Infantil",
+    "precio": 11.97,
+    "descripcion": "Biberón anticólicos 250ml, formulado especialmente para el bienestar de los más pequeños.",
+    "imagenUrl": "assets/productos/biberon.jpg",
+    "promocion": false
+  },
+  {
+    "nombre": "Chupete anatómico silicona",
+    "categoria": "Infantil",
+    "precio": 5.23,
+    "descripcion": "Chupete anatómico silicona, formulado especialmente para el bienestar de los más pequeños.",
+    "imagenUrl": "assets/productos/chupete.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "Gel de baño hipoalergénico",
+    "categoria": "Infantil",
+    "precio": 6.68,
+    "descripcion": "Gel de baño hipoalergénico, formulado especialmente para el bienestar de los más pequeños.",
+    "imagenUrl": "assets/productos/gel.jpg",
+    "promocion": false
+  },
+  {
+    "nombre": "Colonia infantil sin alcohol",
+    "categoria": "Infantil",
+    "precio": 12.62,
+    "descripcion": "Colonia infantil sin alcohol, formulado especialmente para el bienestar de los más pequeños.",
+    "imagenUrl": "assets/productos/colonia.jpg",
+    "promocion": false
+  },
+  {
+    "nombre": "Juguete mordedor refrigerante",
+    "categoria": "Infantil",
+    "precio": 6.22,
+    "descripcion": "Juguete mordedor refrigerante, formulado especialmente para el bienestar de los más pequeños.",
+    "imagenUrl": "assets/productos/mordeador.jpg",
+    "promocion": false
+  },
+  {
+    "nombre": "Aspirador nasal manual",
+    "categoria": "Infantil",
+    "precio": 8.74,
+    "descripcion": "Aspirador nasal manual, formulado especialmente para el bienestar de los más pequeños.",
+    "imagenUrl": "assets/productos/aspirador.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "Esponja natural para bebés",
+    "categoria": "Infantil",
+    "precio": 5.99,
+    "descripcion": "Esponja natural para bebés, formulado especialmente para el bienestar de los más pequeños.",
+    "imagenUrl": "assets/productos/esponja.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "Loción corporal hidratante",
+    "categoria": "Infantil",
+    "precio": 8.74,
+    "descripcion": "Loción corporal hidratante, formulado especialmente para el bienestar de los más pequeños.",
+    "imagenUrl": "assets/productos/locionn.jpg",
+    "promocion": false
+  },
+  {
+    "nombre": "Botella térmica infantil",
+    "categoria": "Infantil",
+    "precio": 13.57,
+    "descripcion": "Botella térmica infantil, formulado especialmente para el bienestar de los más pequeños.",
+    "imagenUrl": "assets/productos/botella.jpg",
+    "promocion": false
+  },
+  {
+    "nombre": "Gotas vitamínicas pediátricas",
+    "categoria": "Infantil",
+    "precio": 11.82,
+    "descripcion": "Gotas vitamínicas pediátricas, formulado especialmente para el bienestar de los más pequeños.",
+    "imagenUrl": "assets/productos/gotas.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "Gel dental infantil sin flúor",
+    "categoria": "Infantil",
+    "precio": 21.1,
+    "descripcion": "Gel dental infantil sin flúor, formulado especialmente para el bienestar de los más pequeños.",
+    "imagenUrl": "assets/productos/geldental.jpg",
+    "promocion": false
+  },
+  {
+    "nombre": "Set de cuidado uñas bebé",
+    "categoria": "Infantil",
+    "precio": 21.81,
+    "descripcion": "Set de cuidado uñas bebé, formulado especialmente para el bienestar de los más pequeños.",
+    "imagenUrl": "assets/productos/set.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "Cucharas blandas de silicona",
+    "categoria": "Infantil",
+    "precio": 6.09,
+    "descripcion": "Cucharas blandas de silicona, formulado especialmente para el bienestar de los más pequeños.",
+    "imagenUrl": "assets/productos/cuchara.jpg",
+    "promocion": false
+  },
+  {
+    "nombre": "Loción calmante post-picaduras",
+    "categoria": "Infantil",
+    "precio": 13.89,
+    "descripcion": "Loción calmante post-picaduras, formulado especialmente para el bienestar de los más pequeños.",
+    "imagenUrl": "assets/productos/locioncalmante.jpg",
+    "promocion": false
+  },
+  {
+    "nombre": "Champú anticaída BioCapil",
+    "categoria": "Cabello",
+    "precio": 9.18,
+    "descripcion": "Champú anticaída BioCapil, recomendado para mantener el cabello fuerte y saludable.",
+    "imagenUrl": "assets/productos/anticaida.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "Acondicionador hidratante",
+    "categoria": "Cabello",
+    "precio": 9.16,
+    "descripcion": "Acondicionador hidratante, recomendado para mantener el cabello fuerte y saludable.",
+    "imagenUrl": "assets/productos/acondicionador.jpg",
+    "promocion": false
+  },
+  {
+    "nombre": "Mascarilla nutritiva capilar",
+    "categoria": "Cabello",
+    "precio": 6.85,
+    "descripcion": "Mascarilla nutritiva capilar, recomendado para mantener el cabello fuerte y saludable.",
+    "imagenUrl": "assets/productos/mascarilla.jpg",
+    "promocion": false
+  },
+  {
+    "nombre": "Serum reparador puntas abiertas",
+    "categoria": "Cabello",
+    "precio": 12.06,
+    "descripcion": "Serum reparador puntas abiertas, recomendado para mantener el cabello fuerte y saludable.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Spray antiencrespamiento",
+    "categoria": "Cabello",
+    "precio": 15.7,
+    "descripcion": "Spray antiencrespamiento, recomendado para mantener el cabello fuerte y saludable.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Champú para cuero cabelludo sensible",
+    "categoria": "Cabello",
+    "precio": 16.01,
+    "descripcion": "Champú para cuero cabelludo sensible, recomendado para mantener el cabello fuerte y saludable.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Loción fortificante capilar",
+    "categoria": "Cabello",
+    "precio": 5.89,
+    "descripcion": "Loción fortificante capilar, recomendado para mantener el cabello fuerte y saludable.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Ampollas tratamiento caída",
+    "categoria": "Cabello",
+    "precio": 21.33,
+    "descripcion": "Ampollas tratamiento caída, recomendado para mantener el cabello fuerte y saludable.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Cepillo desenredante antiestático",
+    "categoria": "Cabello",
+    "precio": 12.36,
+    "descripcion": "Cepillo desenredante antiestático, recomendado para mantener el cabello fuerte y saludable.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Espuma volumen natural",
+    "categoria": "Cabello",
+    "precio": 7.98,
+    "descripcion": "Espuma volumen natural, recomendado para mantener el cabello fuerte y saludable.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Gel fijador sin alcohol",
+    "categoria": "Cabello",
+    "precio": 14.08,
+    "descripcion": "Gel fijador sin alcohol, recomendado para mantener el cabello fuerte y saludable.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Spray protector térmico",
+    "categoria": "Cabello",
+    "precio": 20.6,
+    "descripcion": "Spray protector térmico, recomendado para mantener el cabello fuerte y saludable.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Tratamiento keratina alisado",
+    "categoria": "Cabello",
+    "precio": 20.41,
+    "descripcion": "Tratamiento keratina alisado, recomendado para mantener el cabello fuerte y saludable.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Champú en seco en spray",
+    "categoria": "Cabello",
+    "precio": 11.94,
+    "descripcion": "Champú en seco en spray, recomendado para mantener el cabello fuerte y saludable.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Peine de púas anchas antitirones",
+    "categoria": "Cabello",
+    "precio": 9.04,
+    "descripcion": "Peine de púas anchas antitirones, recomendado para mantener el cabello fuerte y saludable.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Aceite capilar argán",
+    "categoria": "Cabello",
+    "precio": 13.05,
+    "descripcion": "Aceite capilar argán, recomendado para mantener el cabello fuerte y saludable.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Mascarilla vegana sin sulfatos",
+    "categoria": "Cabello",
+    "precio": 17.39,
+    "descripcion": "Mascarilla vegana sin sulfatos, recomendado para mantener el cabello fuerte y saludable.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Champú sólido cabello graso",
+    "categoria": "Cabello",
+    "precio": 14.73,
+    "descripcion": "Champú sólido cabello graso, recomendado para mantener el cabello fuerte y saludable.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Sérum brillo intenso",
+    "categoria": "Cabello",
+    "precio": 22.51,
+    "descripcion": "Sérum brillo intenso, recomendado para mantener el cabello fuerte y saludable.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Champú para cabello teñido",
+    "categoria": "Cabello",
+    "precio": 16.36,
+    "descripcion": "Champú para cabello teñido, recomendado para mantener el cabello fuerte y saludable.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Crema hidratante intensiva",
+    "categoria": "Corporal",
+    "precio": 14.93,
+    "descripcion": "Crema hidratante intensiva, pensado para una piel suave y bien cuidada.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Aceite corporal seco",
+    "categoria": "Corporal",
+    "precio": 17.99,
+    "descripcion": "Aceite corporal seco, pensado para una piel suave y bien cuidada.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Gel de ducha revitalizante",
+    "categoria": "Corporal",
+    "precio": 23.58,
+    "descripcion": "Gel de ducha revitalizante, pensado para una piel suave y bien cuidada.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Loción post solar con aloe",
+    "categoria": "Corporal",
+    "precio": 11.22,
+    "descripcion": "Loción post solar con aloe, pensado para una piel suave y bien cuidada.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Crema reafirmante cuerpo",
+    "categoria": "Corporal",
+    "precio": 21.79,
+    "descripcion": "Crema reafirmante cuerpo, pensado para una piel suave y bien cuidada.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Leche corporal piel atópica",
+    "categoria": "Corporal",
+    "precio": 17.49,
+    "descripcion": "Leche corporal piel atópica, pensado para una piel suave y bien cuidada.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Exfoliante corporal azúcar",
+    "categoria": "Corporal",
+    "precio": 12.29,
+    "descripcion": "Exfoliante corporal azúcar, pensado para una piel suave y bien cuidada.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Gel frío piernas cansadas",
+    "categoria": "Corporal",
+    "precio": 10.42,
+    "descripcion": "Gel frío piernas cansadas, pensado para una piel suave y bien cuidada.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Mousse hidratante ligera",
+    "categoria": "Corporal",
+    "precio": 19.77,
+    "descripcion": "Mousse hidratante ligera, pensado para una piel suave y bien cuidada.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Jabón natural de avena",
+    "categoria": "Corporal",
+    "precio": 11.41,
+    "descripcion": "Jabón natural de avena, pensado para una piel suave y bien cuidada.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Bálsamo reparador zonas secas",
+    "categoria": "Corporal",
+    "precio": 23.39,
+    "descripcion": "Bálsamo reparador zonas secas, pensado para una piel suave y bien cuidada.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Manteca corporal karité",
+    "categoria": "Corporal",
+    "precio": 5.4,
+    "descripcion": "Manteca corporal karité, pensado para una piel suave y bien cuidada.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Spray corporal energizante",
+    "categoria": "Corporal",
+    "precio": 7.28,
+    "descripcion": "Spray corporal energizante, pensado para una piel suave y bien cuidada.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Polvo de talco natural",
+    "categoria": "Corporal",
+    "precio": 8.5,
+    "descripcion": "Polvo de talco natural, pensado para una piel suave y bien cuidada.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Gel íntimo pH neutro",
+    "categoria": "Corporal",
+    "precio": 17.68,
+    "descripcion": "Gel íntimo pH neutro, pensado para una piel suave y bien cuidada.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Pack hidratación piel seca",
+    "categoria": "Corporal",
+    "precio": 20.14,
+    "descripcion": "Pack hidratación piel seca, pensado para una piel suave y bien cuidada.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Desodorante sin aluminio",
+    "categoria": "Corporal",
+    "precio": 14.68,
+    "descripcion": "Desodorante sin aluminio, pensado para una piel suave y bien cuidada.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Roll-on anti rozaduras",
+    "categoria": "Corporal",
+    "precio": 14.37,
+    "descripcion": "Roll-on anti rozaduras, pensado para una piel suave y bien cuidada.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Crema antiestrías embarazo",
+    "categoria": "Corporal",
+    "precio": 9.31,
+    "descripcion": "Crema antiestrías embarazo, pensado para una piel suave y bien cuidada.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Gel reductor zonas localizadas",
+    "categoria": "Corporal",
+    "precio": 20.46,
+    "descripcion": "Gel reductor zonas localizadas, pensado para una piel suave y bien cuidada.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Crema facial antiarrugas día",
+    "categoria": "Cosmética",
+    "precio": 22.58,
+    "descripcion": "Crema facial antiarrugas día, perfecto para realzar tu belleza de forma natural.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Sérum vitamina C",
+    "categoria": "Cosmética",
+    "precio": 12.71,
+    "descripcion": "Sérum vitamina C, perfecto para realzar tu belleza de forma natural.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Contorno de ojos descongestionante",
+    "categoria": "Cosmética",
+    "precio": 20.08,
+    "descripcion": "Contorno de ojos descongestionante, perfecto para realzar tu belleza de forma natural.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Agua micelar purificante",
+    "categoria": "Cosmética",
+    "precio": 24.96,
+    "descripcion": "Agua micelar purificante, perfecto para realzar tu belleza de forma natural.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "BB Cream tono medio",
+    "categoria": "Cosmética",
+    "precio": 22.97,
+    "descripcion": "BB Cream tono medio, perfecto para realzar tu belleza de forma natural.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Tónico facial calmante",
+    "categoria": "Cosmética",
+    "precio": 18.25,
+    "descripcion": "Tónico facial calmante, perfecto para realzar tu belleza de forma natural.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Mascarilla facial arcilla rosa",
+    "categoria": "Cosmética",
+    "precio": 19.13,
+    "descripcion": "Mascarilla facial arcilla rosa, perfecto para realzar tu belleza de forma natural.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Stick labial hidratante SPF15",
+    "categoria": "Cosmética",
+    "precio": 10.38,
+    "descripcion": "Stick labial hidratante SPF15, perfecto para realzar tu belleza de forma natural.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Bálsamo desmaquillante suave",
+    "categoria": "Cosmética",
+    "precio": 23.9,
+    "descripcion": "Bálsamo desmaquillante suave, perfecto para realzar tu belleza de forma natural.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Bruma facial fijadora",
+    "categoria": "Cosmética",
+    "precio": 23.5,
+    "descripcion": "Bruma facial fijadora, perfecto para realzar tu belleza de forma natural.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Crema hidratante con ácido hialurónico",
+    "categoria": "Cosmética",
+    "precio": 8.87,
+    "descripcion": "Crema hidratante con ácido hialurónico, perfecto para realzar tu belleza de forma natural.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Base de maquillaje ligera",
+    "categoria": "Cosmética",
+    "precio": 5.88,
+    "descripcion": "Base de maquillaje ligera, perfecto para realzar tu belleza de forma natural.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Ampollas efecto flash",
+    "categoria": "Cosmética",
+    "precio": 13.61,
+    "descripcion": "Ampollas efecto flash, perfecto para realzar tu belleza de forma natural.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Crema noche regeneradora",
+    "categoria": "Cosmética",
+    "precio": 14.58,
+    "descripcion": "Crema noche regeneradora, perfecto para realzar tu belleza de forma natural.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Exfoliante facial suave",
+    "categoria": "Cosmética",
+    "precio": 17.48,
+    "descripcion": "Exfoliante facial suave, perfecto para realzar tu belleza de forma natural.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Iluminador líquido rostro",
+    "categoria": "Cosmética",
+    "precio": 24.4,
+    "descripcion": "Iluminador líquido rostro, perfecto para realzar tu belleza de forma natural.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Corrector de ojeras natural",
+    "categoria": "Cosmética",
+    "precio": 19.91,
+    "descripcion": "Corrector de ojeras natural, perfecto para realzar tu belleza de forma natural.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Labial mate rojo vino",
+    "categoria": "Cosmética",
+    "precio": 19.68,
+    "descripcion": "Labial mate rojo vino, perfecto para realzar tu belleza de forma natural.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Polvos compactos minerales",
+    "categoria": "Cosmética",
+    "precio": 18.75,
+    "descripcion": "Polvos compactos minerales, perfecto para realzar tu belleza de forma natural.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Pack cuidado facial completo",
+    "categoria": "Cosmética",
+    "precio": 7.85,
+    "descripcion": "Pack cuidado facial completo, perfecto para realzar tu belleza de forma natural.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Complemento vitamínico multivit",
+    "categoria": "Dietética",
+    "precio": 23.54,
+    "descripcion": "Complemento vitamínico multivit, complemento ideal para una dieta equilibrada.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Batido sustitutivo chocolate",
+    "categoria": "Dietética",
+    "precio": 14.53,
+    "descripcion": "Batido sustitutivo chocolate, complemento ideal para una dieta equilibrada.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Infusión detox natural",
+    "categoria": "Dietética",
+    "precio": 14.79,
+    "descripcion": "Infusión detox natural, complemento ideal para una dieta equilibrada.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Galletas sin gluten",
+    "categoria": "Dietética",
+    "precio": 18.32,
+    "descripcion": "Galletas sin gluten, complemento ideal para una dieta equilibrada.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Barritas proteicas vainilla",
+    "categoria": "Dietética",
+    "precio": 24.83,
+    "descripcion": "Barritas proteicas vainilla, complemento ideal para una dieta equilibrada.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Omega 3 cápsulas blandas",
+    "categoria": "Dietética",
+    "precio": 23.72,
+    "descripcion": "Omega 3 cápsulas blandas, complemento ideal para una dieta equilibrada.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Probióticos digestivos",
+    "categoria": "Dietética",
+    "precio": 9.35,
+    "descripcion": "Probióticos digestivos, complemento ideal para una dieta equilibrada.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Jalea real infantil",
+    "categoria": "Dietética",
+    "precio": 5.68,
+    "descripcion": "Jalea real infantil, complemento ideal para una dieta equilibrada.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Suplemento colágeno y magnesio",
+    "categoria": "Dietética",
+    "precio": 24.11,
+    "descripcion": "Suplemento colágeno y magnesio, complemento ideal para una dieta equilibrada.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Vitamina D en gotas",
+    "categoria": "Dietética",
+    "precio": 21.77,
+    "descripcion": "Vitamina D en gotas, complemento ideal para una dieta equilibrada.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Té verde antioxidante",
+    "categoria": "Dietética",
+    "precio": 18.93,
+    "descripcion": "Té verde antioxidante, complemento ideal para una dieta equilibrada.",
+    "imagenUrl": "",
+    "promocion": true
+  },
+  {
+    "nombre": "Fibra soluble en polvo",
+    "categoria": "Dietética",
+    "precio": 7.72,
+    "descripcion": "Fibra soluble en polvo, complemento ideal para una dieta equilibrada.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Complemento saciante natural",
+    "categoria": "Dietética",
+    "precio": 22.66,
+    "descripcion": "Complemento saciante natural, complemento ideal para una dieta equilibrada.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Cápsulas quemagrasas",
+    "categoria": "Dietética",
+    "precio": 11.74,
+    "descripcion": "Cápsulas quemagrasas, complemento ideal para una dieta equilibrada.",
+    "imagenUrl": "",
+    "promocion": false
+  },
+  {
+    "nombre": "Bebida isotónica sin azúcar",
+    "categoria": "Dietética",
+    "precio": 9.29,
+    "descripcion": "Bebida isotónica sin azúcar, complemento ideal para una dieta equilibrada.",
+    "imagenUrl": "assets/productos/bebida.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "Proteína vegetal sabor fresa",
+    "categoria": "Dietética",
+    "precio": 22.74,
+    "descripcion": "Proteína vegetal sabor fresa, complemento ideal para una dieta equilibrada.",
+    "imagenUrl": "assets/productos/proteina.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "Cápsulas antiestrés naturales",
+    "categoria": "Dietética",
+    "precio": 17.06,
+    "descripcion": "Cápsulas antiestrés naturales, complemento ideal para una dieta equilibrada.",
+    "imagenUrl": "assets/productos/capsulas.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "Pastillas para reforzar defensas",
+    "categoria": "Dietética",
+    "precio": 7.54,
+    "descripcion": "Pastillas para reforzar defensas, complemento ideal para una dieta equilibrada.",
+    "imagenUrl": "assets/productos/pastillas.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "Aceite de krill en cápsulas",
+    "categoria": "Dietética",
+    "precio": 20.92,
+    "descripcion": "Aceite de krill en cápsulas, complemento ideal para una dieta equilibrada.",
+    "imagenUrl": "assets/productos/aceite.jpg",
+    "promocion": true
+  },
+  {
+    "nombre": "Vitaminas para el cabello y uñas",
+    "categoria": "Dietética",
+    "precio": 15.62,
+    "descripcion": "Vitaminas para el cabello y uñas, complemento ideal para una dieta equilibrada.",
+    "imagenUrl": "assets/productos/vitaminass.jpg",
+    "promocion": true
+  }
+]
