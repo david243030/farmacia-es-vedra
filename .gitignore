@@ -1,13 +1,20 @@
-# EXISTENTE: Angular y herramientas
+# ✅ Angular y herramientas
 /dist
 /tmp
 /out-tsc
 /bazel-out
-
 /node_modules
-npm-debug.log
-yarn-error.log
+/angular/cache
+/coverage
+/typings
+.sass-cache/
+.connect.lock
+/libpeerconnection.log
+testem.log
 
+# ✅ Archivos de sistema y editores
+.DS_Store
+Thumbs.db
 .idea/
 .project
 .classpath
@@ -15,28 +22,27 @@ yarn-error.log
 *.launch
 .settings/
 *.sublime-workspace
-
+.history/*
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-.history/*
 
-/.angular/cache
-.sass-cache/
-.connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
-
-.DS_Store
-Thumbs.db
-
-# 🔐 AÑADIDO PERSONALIZADO: proteger claves
+# 🔐 Claves y configuración sensible
 /src/environments/environment.ts         # clave Firebase frontend
-/backend/venv                            # entorno virtual Python
-/backend/__pycache__                    # caché de Python
-/backend/*.json                         # clave Firebase backend
+/backend/*.json                          # clave Firebase backend
 .env
+
+# 🐍 Python (FastAPI)
+/backend/venv
+/backend/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+
+# 🔧 Logs
+npm-debug.log
+yarn-error.log
